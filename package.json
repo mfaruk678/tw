@@ -1,0 +1,50 @@
+{
+
+  "name": "wa-link-scanner-bot",
+
+  "version": "1.1.0",
+
+  "description": "Bot WhatsApp untuk scanning link grup, filter validitas, auto join, dan menyimpan data grup.",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "start": "node index.js"
+
+  },
+
+  "keywords": [
+
+    "whatsapp",
+
+    "bot",
+
+    "baileys",
+
+    "group-link",
+
+    "scanner",
+
+    "autojoin"
+
+  ],
+
+  "author": "sseason272-hub",
+
+  "license": "MIT",
+
+  "dependencies": {
+
+    "@whiskeysockets/baileys": "^6.7.2",
+
+    "fs": "^0.0.1-security",
+
+    "pino": "^8.17.0",
+
+    "qrcode-terminal": "^0.12.0"
+
+  }
+
+}
+
